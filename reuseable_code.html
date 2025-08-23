@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reuseable Code</title>
+  </head>
+  <body>
+    <h1 id="number">0</h1>
+
+    <button id="id-1" type="button">Button-1</button>
+    <button id="id-2" type="button">Button-2</button>
+    <button id="id-3" type="button">Button-3</button>
+
+    <script>
+
+      function putNumber(n){
+        const h = document.getElementById('number').innerText = n;
+      };
+
+
+
+      document.getElementById('id-1').addEventListener('click', function(){
+        putNumber('1')
+      })
+      document.getElementById('id-2').addEventListener('click', function(){
+       putNumber('2')
+      })
+      document.getElementById('id-3').addEventListener('click', function(){
+        putNumber('3')
+      })
+    </script>
+  </body>
+</html>
