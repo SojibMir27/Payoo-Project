@@ -71,19 +71,19 @@
           <img class="mx-auto" src="./assets/send1.png" alt="" />
           <h2>Cashout</h2>
         </div>
-        <div class="border-2 border-gray-300 text-center p-3 rounded-xl">
+        <div id="transfer-button" class="border-2 border-gray-300 text-center p-3 rounded-xl">
           <img class="mx-auto" src="./assets/money1.png" alt="" />
           <h2>Transfer Money</h2>
         </div>
-        <div class="border-2 border-gray-300 text-center p-3 rounded-xl">
+        <div id="get-bonus-button" class="border-2 border-gray-300 text-center p-3 rounded-xl">
           <img class="mx-auto" src="./assets/bonus1.png" alt="" />
           <h2>Get Bonus</h2>
         </div>
-        <div class="border-2 border-gray-300 text-center p-3 rounded-xl">
+        <div id="pay-bill-button" class="border-2 border-gray-300 text-center p-3 rounded-xl">
           <img class="mx-auto" src="./assets/purse1.png" alt="" />
           <h2>Pay Bill</h2>
         </div>
-        <div class="border-2 border-gray-300 text-center p-3 rounded-xl">
+        <div id="transaction-button" class="border-2 border-gray-300 text-center p-3 rounded-xl">
           <img class="mx-auto" src="./assets/transaction1.png" alt="" />
           <h2>Transactions</h2>
         </div>
@@ -93,13 +93,13 @@
     <!-- All from section -->
     <div class="all-form-section max-w-lg mx-auto bg-[#f4f5f7]">
       <!-- add money -->
-      <div id="add-money-parent" style="display: block">
+      <div class="form" id="add-money-parent" style="display: block">
         <h1 class="font-bold my-5">Add Money</h1>
         <form action="" class="bg-white rounded-2xl p-8">
           <div class="mb-3">
             <h1 class="font-bold">Select A Bank</h1>
             <select
-              id="bank"
+              id="banK"
               class="select bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             >
               <option disabled selected>Select Bank</option>
@@ -147,7 +147,7 @@
       </div>
 
       <!-- Cash Out -->
-      <div style="display: none" id="cash-out-parent">
+      <div class="form" style="display: none" id="cash-out-parent">
         <h1 class="my-5 font-bold">Cash Out</h1>
         <form action="" class="bg-white rounded-2xl p-8">
           <div class="mb-3">
@@ -188,7 +188,7 @@
       </div>
 
       <!-- Transfer Money -->
-      <div style="display: none" id="transfer-money-parent">
+      <div class="form" style="display: none" id="transfer-money-parent">
         <h1 class="my-5 font-bold">Transfer Money</h1>
         <form action="" class="bg-white rounded-2xl p-8">
           <div class="mb-3">
@@ -229,7 +229,7 @@
       </div>
 
        <!-- Get Bonus -->
-      <div style="display: none" id="get-bonus-parent">
+      <div class="form" style="display: none" id="get-bonus-parent">
         <h1 class="my-5 font-bold">Get Bonus</h1>
         <form action="" class="bg-white rounded-2xl p-8">
           <div class="mb-3">
@@ -252,13 +252,13 @@
       </div>
 
             <!-- Pay Bill -->
-      <div style="display: none" id="pay-bill-parent" >
+      <div class="form" style="display: none" id="pay-bill-parent" >
         <h1 class="font-bold my-5">Pay Bill</h1>
         <form action="" class="bg-white rounded-2xl p-8">
           <div class="mb-3">
             <h1 class="font-bold">Select To Pay</h1>
             <select
-              id="bank"
+              id="banK"
               class="select bg-[#f4f5f7] mt-3 rounded-3xl w-full"
             >
               <option disabled selected>Select Bank</option>
@@ -305,7 +305,7 @@
         </form>
       </div>
             <!-- Transaction History -->
-      <div style="display: none" id="transaction-history-parent" >
+      <div class="form" style="display: none" id="transaction-history-parent" >
         <div>
           <img src="" alt="">
         </div>
